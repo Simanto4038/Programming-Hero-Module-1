@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+}
+.heading{
+    text-align: center;
+}
+
+#className{ 
+    font-family: cursive;
+    position: relative;
+    left: 580px;
+    border: double blueviolet;
+    color: #008B8B;
+    height: 3vw;
+    width: 25%;
+}
+span{
+    font-size: 26px;
+    font-weight: 900;
+    font-family:monospace;
+    color: crimson;
+}
+#list_one{
+    font-family: cursive;
+    border: solid crimson;
+    margin: 10px 15px 8px 14px;
+    width: 30%;
+    border-radius: 10%;
+    padding: 3px;
+}
+#list_two{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 700;
+    border: solid crimson;
+    margin: 10px 15px 8px 14px;
+    border-radius: 10%;
+    width: 30%;
+    padding: 3px;
+}
+#list_three{
+    text-align: justify;
+    font-family: cursive;
+    border: solid crimson;
+    margin: 10px 15px 8px 14px;
+    border-radius: 10%;
+    width: 30%;
+    padding: 3px;
+}
+
+.list_title
+{
+    font-family: 'Courier New', Courier, monospace;
+text-align: center;
+}

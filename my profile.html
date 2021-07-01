@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>R.I.AHAMED</title>
+    <link rel="shortcut icon" href="img/pro.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+
+
+    <style type="text/css">
+
+    .header{
+    
+        height: 50px;
+        text-align: center;
+    }
+    .container2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        text-decoration: white;
+    }
+    .col{
+        background:unset;
+       
+        
+       
+    }
+    
+    .card{
+        width: 100%;
+        height: 100%;
+    }
+    table{
+        background:white;
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        height: 100%;
+    }
+    tr:nth-child(even){background-color: #f2f2f2;}
+    tr:hover {background-color: rgb(172, 172, 172);}
+    .button {
+      
+      border: none;
+      color: rgb(245, 226, 226);
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      width :100%;
+      height: fit-content;
+      cursor: pointer;
+    }
+    
+    .button1{
+        background: rgb(201, 85, 201);
+        
+    }
+    .button1:hover{
+        background: rgb(233, 208, 233);
+        
+    }
+    .button2{
+        background: rgb(156, 22, 96);
+        
+    }
+    .button2:hover{
+        background: rgb(228, 49, 147);}
+    
+    .button3{
+        background: rgb(95, 4, 31);
+        
+    }
+    .button3:hover{
+        background: rgb(192, 43, 88);
+        
+    }
+    .button4{
+        background: rgb(46, 1, 77);
+        
+    }
+    .button4:hover{
+        background: rgb(127, 15, 202);
+        
+    }
+    
+    .col1,.col2,.col3{
+        background: rgb(9, 151, 28);
+        color: white;
+        font-family: cursive;
+        font-weight: bold;
+        height: 50px;
+        border: #f2f2f2 solid 3px;
+    }
+    
+    .col2{
+        background: rgb(0, 134, 134);
+        font-size: 26px;
+    }
+    .col2:hover{
+        background: rgb(6, 85, 85);
+        font-size: 26px;
+    }
+    
+    .col-img{
+        background-image: url("img/backnew3.jpg");
+        background-repeat: no-repeat;
+        height: 650px;width: 1600px;
+        
+    }
+    .img_1{
+        height: 250px;width: 250px;border-radius: 250px;
+        position: relative;
+        top: 254px;
+        left: 105px;
+    }
+    .img_1:hover{
+        height: 255px;width: 255px;border-radius: 250px;
+        position: relative;
+        top: 252px;
+        left: 102px;
+    }
+    .box1{
+        position: relative;
+        left: 1px;
+        bottom: 240px;
+        color: rgb(255, 255, 255);
+    }
+    .box2{
+    
+        position:absolute;
+        right: 10px;
+        bottom: 130px;
+    
+    }
+    .box3{
+        position: relative;
+        left: 340px;
+        bottom: 335px;
+        color: rgb(255, 255, 255);
+    }
+    .btn1{
+        
+        background: crimson;
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        margin: 3px;
+    }
+    .btn1:hover{
+        
+        background: rgb(255, 217, 224);
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+    
+    }
+    .btn2{
+         
+        background: rgb(255, 174, 190);
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        margin: 3px;
+    
+    }
+    .btn2:hover{
+         
+         background: rgb(168, 6, 87);
+         width: 100px;
+         height: 100px;
+         border-radius: 100px;}
+    
+    .btn3{
+         
+        background: rgb(220, 20, 143);
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        margin: 3px;
+    
+    }
+    .btn3:hover{
+         
+         background: rgb(152, 217, 219);
+         width: 100px;
+         height: 100px;
+         border-radius: 100px;}
+    .btn4{
+         
+        background: rgb(20, 220, 220);
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        margin: 3px;
+    
+    }
+    .btn4:hover{
+         
+         background: rgb(180, 255, 245);
+         width: 100px;
+         height: 100px;
+         border-radius: 100px;
+     
+     }
+     .container3{
+         display: flex;
+     }
+     .container4{
+         display: flex;
+     }
+     address{
+        border: solid 2px gray;
+        text-align: center;}
+    
+     a:link{
+         color: azure;
+         text-decoration:solid white ;
+         font-weight: bolder;
+         text-transform: uppercase;
+         
+     }
+     a:hover {
+      color: rgb(255, 255, 255);
+      background-color: transparent;
+      text-decoration: solid white;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+      width:312px;
+    }
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: rgba(255, 255, 255, 0.459);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: #111;
+    }
+    .active{
+    background: skyblue;}
+    .Quote{
+      text-align: center;
+      font-family: cursive;
+      font-weight: 800;
+    }
+    
+    .colsm1{   
+        background:rgba(40, 40, 240, 0.808);height: 150px;
+        width:150px ;
+        margin: 3px;color: white;
+    }
+    .colsm1:hover{  
+        background:rgba(26, 33, 122, 0.808);
+        width: 315px;
+        height: 150px;margin: 3px;color: white; 
+        transition: 1s;
+    }
+    .colsm2{
+        background:rgba(230, 77, 77, 0.856);
+        height: 150px;
+        width:150px ;
+        margin: 3px;color: white;
+    }
+    .colsm2:hover{ 
+        background:rgba(151, 7, 7, 0.856);
+        height: 150px;width: 315px;
+        margin: 3px;color: white; transition: 1s; 
+    }
+    .colsm3{
+        background: #85d4f8 ;height: 150px;margin: 3px;width:150px ;color: white;
+    }
+    .colsm3:hover{  
+        background: #034a6b ;height: 150px;width: 315px; margin: 3px;color: white; transition: 1s;
+    }
+    .colsm4{
+        background: #BB001B;height: 150px;width:150px ; margin: 3px;color: white;
+    }
+    .colsm4:hover{  
+        background: #5a010e;height: 150px;width: 315px; margin: 3px;color: white; transition: 1s;
+    }
+    
+    .li1{
+        text-align: left;
+        height: 40px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 16px;
+        font-weight: bold;
+        background: #a7a7a7;
+    }
+    .li1:hover{
+        background: #affcfc;
+        height: 250px;
+        overflow: scroll;
+        transition: 2s;
+    }
+    .li2{
+        text-align: left;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        height: 40px;
+        font-size: 12px;
+        font-weight: bold;
+        background: #c48989;
+    }
+    .li2:hover{
+        background: #f7c4c4;
+    }
+    .li3{
+        text-align: left;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 16px;
+        font-weight: bold;
+        background: #f8d9d9;
+    }
+    .li3:hover{
+        background: #a7a7a7;
+    }
+    .g2{
+        font-size:22px;
+    }
+    .g2:hover{
+        font-size:28px;
+    }
+    .g3{
+        font-size:22px;
+    }
+    .g3:hover{
+        font-size:28px;
+    }
+     
+    </style>
+</head>
+<body>
+   
+
+
+<div class="Quote">
+    <p><i class="glyphicon glyphicon-star-empty"></i>
+       "O my Lord! Increase me in knowledge" (20:114)
+       Al Quran <i class="glyphicon glyphicon-star-empty"></i>
+    </p>
+  </div>
+<div class="container" >
+    <div class="header">
+        <div class="row"  >
+            <div class="col col1 col-md-3"> USE GREEN ENERGY <p><i class="glyphicon glyphicon-leaf" style=" font-size:22px;" ></p> </i></div>
+            <div class="col col2 col-md-5"><i class="glyphicon g2 glyphicon-globe" ></i></i> SAVE THE EARTH <i class="glyphicon g3 glyphicon-globe"></i></i> </div>
+            <div class="col col3 col-md-3"> FOCUS ON RECYCLE <p><i class="glyphicon glyphicon-refresh" style="font-size:22px;" ></i></p></div>
+           
+            
+        </div>    
+    </div>
+</div>
+<br>
+
+ <div class="container-fluid">
+     <div class="row" style="background-image: linear-gradient(rgb(3, 3, 43), rgb(62, 181, 228));height: 650px;
+     background-color: purple">
+         <div class="col col-img col-md-12" >
+            <img class="img_1" src="img/pro.jpg" alt="" style=""> 
+            <div class="box1">
+                <h2><i>Strive!</i></h2>
+                <h3><i>For Excelence</i></h3>
+            </div>
+            <div class="box2">
+                <div class="container2" >
+    
+                    <button class="btn btn1"><a href="workexperience.html"><i class="glyphicon glyphicon-home" style="font-size:36px;" ></i></a></button>
+                    <button class="btn btn2"><a href="workexperience.html" target="_blank"><i class="glyphicon glyphicon-briefcase" style="font-size:36px;"></i></a></button>
+                    
+                    <button class="btn btn3"><a href="Education.html" target="_blank"><i class="glyphicon glyphicon-education" style="font-size:36px;"></i></a></button>
+                    <button class="btn btn4"><a href="language.html" target="_blank">SKILLS</a></button>
+                    
+                </div>
+            
+            </div>
+            <div class="box3">
+                <ul>
+                    <li><a class="active" href="#home" >Faith</a></li>
+                    <li><a href="#news">Hard Work</a></li>
+                    <li><a class="active" href="#contact">Dedication</a></li>
+                    
+                  </ul>
+
+            </div>
+         
+        
+    
+         </div>
+         
+     </div>
+ </div>
+ <br>
+<hr/>
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col col-md-1" style="background-color: white"></div>
+        <div class="col col-md-3"  style="background-color: white">
+            <table id="one">
+                <ul>
+                    <tr><td><p style="color: #0e76a8;font-family: cursive;font-weight: bold;">>>>USE OF PLASTIC GARBAGE FOR THE DEVELOPMENT OF 
+                        ECONOMICAL CONDITION OF BANGLADESH</p></td></tr>
+                    <tr><td><p style="color: #0c2835;font-family: cursive;font-weight: bold;">>>>CHARTER PARTY EXPLAINED!!!</p></td></tr>
+                    <tr><td><P style="color: #0fa5eb;font-family: cursive;font-weight: bold;">>>>ANALYZING THE MARITIME ADMINISTRATION OF BANGLADESH </P></td></tr>
+                </ul>
+            </table>
+        </div>
+        <div class="col col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title" style="text-align: center;font-family: cursive;font-weight: bold;">SAVE THE EARTH</h4>
+                    <img src="img/saveearth1.jpg" class="card-img-top" alt="SAVE THE EARTH">
+                    <button class="btn btn-primary"><i class="glyphicon glyphicon-thumbs-up" style="color: #ffffff; width: 30px;"></i></button>
+                     <button class="btn btn-danger"><i class="glyphicon glyphicon-thumbs-down" style="color: #ffffff;width: 30px;"></i></button>
+
+                </div>
+            </div>
+        </div>
+        <div class="col col-md-3">
+            <button class="button button1">Promoting Green Energy <i class="glyphicon glyphicon-flash"></i> </button>
+            <button class="button button2">Garbage Management <i class="glyphicon glyphicon-trash"></i> </button>
+            <button class="button button3">Plastic Recycle <i class="glyphicon glyphicon-refresh"></i></button>
+            <button class="button button4">Plastic To Fuel <i class="glyphicon glyphicon-fire"></i></button>
+            <button class="button button3">Maritime Management <i class="glyphicon glyphicon-tasks"></i></button>
+            <button class="btn " data-bs-toggle="collapse" href="#articles" style="background: blueviolet ;width: 100%;color: white; text-align: center;"><b>My Articles</b></button>
+        </div>
+    </div>
+</div>
+  
+
+<div class="collapse" id="articles">
+    <div class="card">
+        <div class="card-body">
+              <h3>My Articles</h3>
+              <ul class="list-group" style="width: 100%;">
+                <li class="list-group-item li1"><p>Turning Trush into Wealth</p>
+                    <p>If  we  can  use  our  own  plastic  waste  and  accept  a  chunk  of  others  plastic  waste  we  can 
+                        benefited in 3 ways: 
+                        
+
+                     Environmentally by cleaning all of our plastic waste by recycling .
+                     Boost  up  our  economy  by  contributing  in  plastic  industry  and  building  plastic  road 
+                        (which gives more sustainability).
+                     Entering  the  world  market  with  strong  influence  by  accepting  a  good  amount  of 
+                        world’s waste to achieve diplomatic strength of negotiation on diplomatic issues .
+                        <p>
+                        Plastic pollution is presence of plastic where it shouldn’t be. It’s in the river, in the irrigable 
+                        soil, in the drain ,in the park, on the pavement, in the sea , on the beach almost everywhere 
+                        and  it’s  causing  harm.  Peoples  are  using  more  plastic  than  ever,  it’s  durable,  cheap  to 
+                        produce and we’re consuming it at staggering  rates. Current estimates show that at last 8 
+                        million  pieces  of  plastic  are  entering  the  oceans  every  single  day!  That’s  not  only 
+                        concerning it’s alarming for the marine environment. While we talk about nuclear weapons 
+                        those have the capacity to destroy a whole city whereas plastic can destroy the whole rivers 
+                        oceans and irrigable lands in one word human existence.    
+                    </p>
+                    <p>
+                        We already know that fracking  is terrible for the globe .It pollutes water, soil and air with 
+                       toxins,  it  creates  underground  hollow  places  that  crumple  into  sinkholes,  and  it  increases 
+                       pressure  in  underground  rock  formations,  undermine  and  unstable  them  and  leading  to 
+                       earthquakes, even in places where earthquakes are unusual. Adding insult to injury, one of the 
+                       main products of fracking are plastics. Mainly, fossil fuels detached from shale and other rock 
+                       structures are twisted into resin pellets that are used to produce ever more plastics, plastics 
+                       that are simply redundant, plastics that usually are intended to be solo apply which creates a 
+                       enormous  risk  for  the  planet  earth  may  be  in  coming  years  earth  will  face  catastrophic 
+                       earthquake more frequently.
+                    </p>
+                    
+                    </p>
+                </li>
+                <li class="list-group-item li2">Global Response To Global Warming </li>
+                <li class="list-group-item li3">Environmental Cost Of Renewable Energy</li>
+              </ul>
+        </div>
+    </div>
+</div>
+        
+        
+        
+    
+
+<br>
+<br>
+<br>
+<br>
+
+<div class="container">
+    <div class="row">
+        <div class="col col-md-6" style="background: rgb(255, 255, 255);">
+          <div class="container3">
+            <div class="col colsm1 col-md-5">
+                <h3>FaceBook</h3>
+                <p><a href="https://www.facebook.com/simanto.tahasin/" target="_blank" style="text-transform: lowercase;color: #0fa5eb;"><img src="img/fb_icon_325x325.png" alt="facebook" style="width: 50px;"></a></p>
+            </div>
+            <div class="col colsm2 col-md-5" >
+                <h3>Instagram</h3>
+                <p><img src="img/unnamed.png" alt="" style="width: 50px;"></p>
+            </div>
+          </div>
+          <div class="container4">
+            <div class="col colsm3 col-md-5" >
+                <h3>Linked In </h3>
+                <p><img src="img/174857.png" alt="" style="width: 50px;"></p>
+            </div>
+            <div class="col colsm4 col-md-5" >
+                <h3>Gmail</h3>
+                <p><img src="img/gmail.png" alt="" style="width: 50px;"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col col-md-6" style="background: rgb(230, 230, 230);height: 300px;">
+            <h3><b>Great Pacific Garbage Patch</b></h3>
+            <video width="100%" height="220px" controls>
+                <source src="img/The Great Pacific Garbage Patch.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+</div>
+<hr/>
+<hr/>
+<address>
+    <h4>Address Detail:</h4>
+       <p><i class="glyphicon glyphicon-phone"></i> Phone:(+880) 1870119089 </p>
+       <p style="color: crimson;"> <i class="glyphicon glyphicon-envelope"></i> <b>Email address</b>:<a href="rafat40388@gmail.com"  style="color: teal;text-transform: lowercase;">rafat40388@gmail.com</p></a>
+       <p style="color: #0e76a8;"><i class="glyphicon glyphicon-user"></i> <b>FaceBook address</b>:<a href="https://www.facebook.com/simanto.tahasin/" style="text-transform: lowercase;color: #0fa5eb;">https://www.facebook.com/simanto.tahasin/</p></a>  
+       <p style="color: rgb(32, 143, 143);"><i class="glyphicon glyphicon-map-marker"></i> <b>Address</b>: Village: Nagarkumari, P.O: Boda P.S: Boda, District : Panchagarh,BANGLADESH, 5010 BODA,PANCHAGARH (Bangladesh)</p></i>
+   
+ </address>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
